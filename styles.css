@@ -1,0 +1,39 @@
+* ::before ::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+body {
+    background-color:grey;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btn {
+    padding:.8em;
+    border-radius:20%;
+    background-color: yellow;
+    font-weight:700;
+    font-size:1.5em;
+    margin:0 auto;
+    display:block;
+}
+
+.game { 
+    text-decoration: none;
+    color:black;
+}
+
+.btn :hover {
+    background-color: cornsilk;
+}
+
+.description {
+    text-align: center;
+    border:2px solid black;
+}
