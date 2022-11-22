@@ -6,15 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shifumi</title>
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Rock Paper Scissors</h1>
-        <button class="btn">
-            <a class="game" href="#">Start the game</a>
-        </button>
-        <p class="description">This game is played in the console on Windows/Linux press CTRL Shift I to open the console. On mac, Options J to open the console.</p>
+        <h1>Rock Paper Scissors </h1>
+        <div class="results">
+            <h2>Player Score: <span>0</span></h2>
+            <h2>Computer Score: <span>0</span></h2>
+        </div>
+        <button class="btn start">Start the game</button>
+        <div class="player__selection">
+            <h1>What do you choose?</h1>
+            <div class="selections">
+                <button class=" selection rock">🪨</button>
+                <button class=" selection paper" >🧻</button>
+                <button class=" selection scissors">✂️</button>
+            </div>
+                </div>
+        <div class="computer__selection">
+            <h1>The computer's choice is:</h1>
+                </div>
+                <div class="restart">
+                    <button class="btn restart">Replay the game
+                    </button>
+                    <footer class="footer">Designed and developed by <a href="https://github.com/Yushi5058" class="link" target="_blank">Yushi5058</a></footer>
+
+                </div>
     </div>
-    <script src="index.js"></script>
 </body>
 </html>
