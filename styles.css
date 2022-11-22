@@ -1,39 +1,73 @@
-* ::before ::after{
+* ::after ::before {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-size:62.5%;
 }
 
 body {
-    background-color:grey;
+    background-color:black;
+    color:whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid yellow;
 }
 
 h1 {
+    color:#FFFFCC;
     text-align: center;
-    text-decoration: underline;
+}
+
+.results {
+    border:2px solid #FFFFCC;
+    margin-bottom:2em;
+}
+
+.results h2 {
+    text-align: center;
+}
+
+button {
+    padding:1.125em;
+    font-size:1.1rem;
+    border-radius:5%;
+    outline:none;
 }
 
 .btn {
-    padding:.8em;
-    border-radius:20%;
-    background-color: yellow;
-    font-weight:700;
-    font-size:1.5em;
-    margin:0 auto;
     display:block;
+    margin:0 auto;
+}
+.btn:hover {
+    border:5px solid red;
+    
+
+}
+span {
+    color:#FFFFCC;
+}
+.selection + .selection {
+    margin-left:1.125em;
 }
 
-.game { 
-    text-decoration: none;
-    color:black;
+.selections {
+    margin:0 auto;
+    padding-left:5em;
 }
 
-.btn :hover {
-    background-color: cornsilk;
+.selections :hover {
+    border:5px solid #FFFFCC;
+    transform: scale(1.1);
+    transition: 100ms;
 }
 
-.description {
+.footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
     text-align: center;
-    border:2px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color:#FFFFCC;
 }
