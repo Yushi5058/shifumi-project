@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shifumi</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css" />
     <script defer src="index.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Rock Paper Scissors </h1>
+        <h1 class="title">Rock Paper Scissors</h1>
         <div class="results">
-            <h2>Player Score: <span>0</span></h2>
-            <h2>Computer Score: <span>0</span></h2>
+            <h1 class="results__title">Score</h1>
+            <p class="results__player">Player:<span>0</span></p>
+            <p class="results__computer">Computer:<span>0</span></p>
         </div>
-        <button class="btn start">Start the game</button>
-        <div class="player__selection">
-            <h1>What do you choose?</h1>
-            <div class="selections">
-                <button class=" selection rock">🪨</button>
-                <button class=" selection paper" >🧻</button>
-                <button class=" selection scissors">✂️</button>
+        <div class="game game--start">
+            <i class="fa-solid fa-play"></i>
             </div>
+            <div class="selection">
+                <div class="selection selection--player">
+                    <p class="selection selection__question">What do you choose?</p>
+                    <div class="flex">
+                    <button class="button button__rock">Rock</button>  
+                    <button class="button button__paper">Paper</button>
+                    <button class="button button__scissors">Scissors</button>        
                 </div>
-        <div class="computer__selection">
-            <h1>The computer's choice is:</h1>
-                </div>
-                <div class="restart">
-                    <button class="btn restart">Replay the game
-                    </button>
-                    <footer class="footer">Designed and developed by <a href="https://github.com/Yushi5058" class="link" target="_blank">Yushi5058</a></footer>
-
-                </div>
-    </div>
+        <div class="game game--end">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+        </div>
+        <footer class="footer">
+            Developed and designed by <a href="https://www.github.com/Yushi5058" class="footer__link">Yushi61</a>
+        </footer>
+    </div>  
 </body>
 </html>
