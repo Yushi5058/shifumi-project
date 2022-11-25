@@ -1,14 +1,13 @@
 *, *::before *, ::after {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
     background-color:#333;
     color:cornsilk;
-    margin:0;
-    padding:0;
     border:5px solid cornsilk;
-    width:100%;
 }
 .title {
     text-align: center;
@@ -27,18 +26,15 @@ body {
 .button {
     text-align: center;
     padding:.8em;
-    font-size: 1.125rem;
+    font-size: .8rem;
     border-radius:5%;
     transform: scale(1.2);
     transition-delay: 200ms;
     cursor:pointer;
 }
+
 .fa-repeat, .fa-play {
     cursor:pointer;
-}
-
-.fa-repeat {
-    margin-top:.5em;
 }
 
 .game {
@@ -54,20 +50,19 @@ body {
 .flex {
     display:flex;
     flex-direction: row;
-    gap:2em;
+    justify-content: center;
+    gap:2rem;
     font-size:.8rem;
-    flex:auto;
 }
 
-.button__rock {
-    margin-left:2em;
+.fa-repeat {
+    margin-top:.8em;
 }
-
 .footer {
     font-size:.8rem;
-    margin-bottom:2em;
     text-align: center;
-    margin-top:2em;
+    flex-shrink:0;
+    margin-bottom:2em;
 }
 
 .footer__link {
