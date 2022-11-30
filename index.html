@@ -4,38 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="index.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <h1 class="title">Rock Paper Scissors</h1>
-    <div class="main">
-        <div class="results">
-            <h1 class="results__title">Score</h1>
-            <p class="results__player">Player:<span class="playerScore"></span></p>
-            <p class="results__computer">Computer:<span class="compScore"></span></p>
-        </div>
-        <div class="game game--start">
-            <div class="selection">
-                <div class="selection selection--player">
-                    <p class="selection selection__question">What do you choose?</p>
-                    <div class="flex">
-                    <button class="button button__rock">Rock</button>  
-                    <button class="button button__paper">Paper</button>
-                    <button class="button button__scissors">Scissors</button>     
-                        </div>
-                </div>
-            </div>
-            </div>
-        <div class="game game--end">
-            <i class="fa fa-repeat button__restart" type="button" onClick="window.location.reload()" aria-hidden="true"></i>
-        </div>
-        <div class="log"></div>
-        <footer class="footer">
-            Developed and designed by <a href="https://www.github.com/Yushi5058" class="footer__link">Yushi61</a>
-        </footer>
-        </div>
+    <div class="selections">
+        <button class="selection">✊</button>
+        <button class="selection">✋</button>
+        <button class="selection">✌️</button>
+    </div>
+    <div class="results"></div>
+    <div>You
+        <span class="result-score">0</span>
+    </div>
+    <div>Computer
+        <span class="result-score">0</span>
+    </div>
+    <div class="result-selection winner">✊</div>
+    <div class="result-selection">✌️</div>
+    
 </body>
 </html>
