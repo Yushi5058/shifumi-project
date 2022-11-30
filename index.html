@@ -10,12 +10,12 @@
     <script defer src="index.js"></script>
 </head>
 <body>
+    <h1 class="title">Rock Paper Scissors</h1>
     <div class="main">
-            <h1 class="title">Rock Paper Scissors</h1>
         <div class="results">
             <h1 class="results__title">Score</h1>
-            <p class="results__player">Player:<span>0</span></p>
-            <p class="results__computer">Computer:<span>0</span></p>
+            <p class="results__player">Player:<span class="playerScore"></span></p>
+            <p class="results__computer">Computer:<span class="compScore"></span></p>
         </div>
         <div class="game game--start">
             <div class="selection">
@@ -30,8 +30,9 @@
             </div>
             </div>
         <div class="game game--end">
-            <i class="fa fa-repeat" aria-hidden="true"></i>
+            <i class="fa fa-repeat button__restart" type="button" onClick="window.location.reload()" aria-hidden="true"></i>
         </div>
+        <div class="log"></div>
         <footer class="footer">
             Developed and designed by <a href="https://www.github.com/Yushi5058" class="footer__link">Yushi61</a>
         </footer>
