@@ -13,7 +13,7 @@ You can play the game and see it live by visiting the following [link](https://y
 
 ### Conclusion
 
-In conclusion, building this game was challenging, particularly the JavaScript component which required extensive research and understanding of parseFloat and DOM manipulation. Despite this, the hard work paid off and I am proud of the final result.
+In conclusion, building this game was challenging, particularly the JavaScript component which required extensive research and understanding of conditionals and DOM manipulation. Despite this, the hard work paid off and I am proud of the final result.
 
 
 
